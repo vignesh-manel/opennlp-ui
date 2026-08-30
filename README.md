@@ -33,7 +33,7 @@ The frontend communicates with the backend over a local REST API. No data leaves
 ```bash
 cd frontend
 npm install
-npm run build
+npm run build:backend
 ```
 This places the built assets in `backend/src/main/resources/webapp/`.
 
