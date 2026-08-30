@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "build:backend": "npm run build && rm -rf ../backend/src/main/resources/webapp && cp -r dist ../backend/src/main/resources/webapp"
+    "build:backend": "npm run build && rm -rf ../backend/src/main/resources/webapp && mkdir -p ../backend/src/main/resources/webapp && cp -r dist ../backend/src/main/resources/webapp"
   },
   "dependencies": {
     "react": "^18.3.1",

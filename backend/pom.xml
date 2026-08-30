@@ -120,5 +120,8 @@
         </executions>
       </plugin>
     </plugins>
+    <finalName>
+      opennlp-ui
+    </finalName>
   </build>
 </project>
